@@ -35,8 +35,8 @@ This website was built from scratch without any libraries.
 
 - ### Carousel Screen
 ![Carousel 1](https://user-images.githubusercontent.com/17671723/191764955-77858625-f35c-4536-bb02-b99c8f95f86e.png)
-![Carousel 2](https://user-images.githubusercontent.com/17671723/191764965-d9441e57-21f8-48fd-bb44-6fed3b315dbc.png)
 ![carousel mobile 1](https://user-images.githubusercontent.com/17671723/191765299-72e5a0c7-dc89-481f-a9cb-6447d8120c0d.png)
+![Carousel 2](https://user-images.githubusercontent.com/17671723/191764965-d9441e57-21f8-48fd-bb44-6fed3b315dbc.png)
 ![carousel mobile 2](https://user-images.githubusercontent.com/17671723/191765310-c983d503-085d-42f4-a202-5e55374cb16c.png)
 
 ## Built With
