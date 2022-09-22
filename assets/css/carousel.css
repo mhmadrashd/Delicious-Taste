@@ -1,0 +1,890 @@
+@import url("https://fonts.googleapis.com/css2?family=Arimo&display=swap");
+body {
+  background-image: url("../images/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Arimo", sans-serif;
+}
+body .container {
+  position: relative;
+  background-color: rgba(232, 232, 232, 0.44);
+  border-radius: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 25px 50px;
+}
+@media only screen and (max-width: 960px) {
+  body .container {
+    padding: 25px;
+  }
+}
+body .container button {
+  cursor: pointer;
+}
+body .container .first-section .header-text span {
+  display: block;
+  font-size: 12px;
+  padding-left: 5px;
+}
+body .container .first-section .header-content {
+  align-items: flex-start;
+  margin-top: 30px;
+}
+body .container .first-section .header-content .left-section .content-body h1 {
+  font-size: 50px;
+}
+@media only screen and (max-width: 960px) {
+  body .container .first-section .header-content .left-section .content-body h1 {
+    font-size: 40px;
+  }
+}
+body .container .first-section .header-content .left-section .content-body button {
+  padding: 10px 15px;
+  border-radius: 20px 20px 0px 20px !important;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  margin-top: 1.5rem;
+  font-size: 20px;
+}
+body .container .first-section .header-content .left-section .content-body button .i {
+  font-size: 15px;
+}
+body .container .first-section .header-content .left-section .content-body button:hover {
+  border-color: rgba(232, 232, 232, 0.5);
+  background-color: white;
+  color: black;
+  scale: 1.2;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+body .container .first-section .header-content .left-section .content-body button .fa-arrow-right-long {
+  padding-left: 15px;
+}
+body .container .first-section .header-content .left-section .content-body button:hover {
+  border-color: rgba(232, 232, 232, 0.5);
+  background-color: white;
+  color: black;
+  scale: 1.2;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+body .container .first-section .header-content .left-section .buttons {
+  margin-top: 3rem;
+}
+body .container .first-section .header-content .left-section .buttons button {
+  padding: 10px;
+  margin-right: 20px;
+  margin-top: 10px;
+  border: 1px solid rgba(232, 232, 232, 0.5);
+  background-color: rgba(232, 232, 232, 0.5);
+  border-radius: 10px;
+}
+body .container .first-section .header-content .left-section .buttons button i {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.795);
+}
+body .container .first-section .header-content .left-section .buttons button:hover {
+  border: 1px solid rgb(60, 60, 60);
+  background-color: rgb(60, 60, 60);
+  scale: 1.2;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+body .container .first-section .header-content .left-section .buttons button:hover i {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.795);
+}
+body .container .first-section .header-content .left-section .buttons button:last-child {
+  margin-right: 0px;
+}
+body .container .first-section .header-content .right-section {
+  position: relative;
+}
+body .container .first-section .header-content .right-section button {
+  padding: 15px 10px 12px 5px;
+  border-radius: 10px 5px 30px 10px !important;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  position: absolute;
+  right: 15%;
+  top: 0%;
+}
+body .container .first-section .header-content .right-section button .i {
+  font-size: 15px;
+}
+body .container .first-section .header-content .right-section button:hover {
+  border-color: rgba(232, 232, 232, 0.5);
+  background-color: white;
+  color: black;
+  scale: 1.2;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+body .container .first-section .header-content .right-section button .fa-cart-shopping::after {
+  content: "5";
+  position: absolute;
+  top: 3px;
+  right: 5px;
+  background-color: rgba(214, 4, 4, 0.858);
+  padding: 5px;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+  font-size: 8px;
+}
+body .container .first-section .header-content .right-section img {
+  position: absolute;
+  top: -40px;
+  width: 500px;
+}
+@media only screen and (max-width: 960px) {
+  body .container .first-section .header-content .right-section img {
+    width: 100%;
+    top: 0px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  body .container .first-section .header-content .right-section {
+    display: none;
+  }
+}
+body .container .second-section {
+  margin-top: 100px;
+}
+body .container .second-section .left-content .carousel-sm .carousel-control {
+  min-width: 50px;
+}
+body .container .second-section .left-content .carousel-sm .carousel-control button {
+  background-color: inherit;
+  border: 0px;
+  color: rgba(0, 0, 0, 0.568);
+  padding: 5px;
+  border-radius: 5px;
+}
+body .container .second-section .left-content .carousel-sm .carousel-control button:hover {
+  background-color: rgb(60, 60, 60);
+  scale: 1.2;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+body .container .second-section .left-content .carousel-sm .carousel-control button:hover i {
+  color: rgba(255, 255, 255, 0.795);
+}
+body .container .second-section .left-content .carousel-sm .carousel-control .last-button {
+  margin-right: 5px;
+}
+body .container .second-section .left-content .carousel-sm .items {
+  position: relative;
+  width: 450px !important;
+  height: 300px !important;
+  padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: end;
+}
+@media only screen and (max-width: 576px) {
+  body .container .second-section .left-content .carousel-sm .items {
+    width: 220px !important;
+  }
+}
+body .container .second-section .left-content .carousel-sm .items .item {
+  position: relative;
+  background-color: rgba(232, 232, 232, 0.5) !important;
+  border-radius: 50px;
+  width: 210px !important;
+  height: 200px !important;
+  margin: 0px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .container .second-section .left-content .carousel-sm .items .item .img-item {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-top: -50px;
+  box-shadow: 0px 10px 5px 2px grey;
+}
+body .container .second-section .left-content .carousel-sm .items .item .item-content {
+  padding-left: 10%;
+  padding-right: 10%;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+body .container .second-section .left-content .carousel-sm .items .item .item-content .title {
+  line-height: 30px;
+}
+body .container .second-section .left-content .carousel-sm .items .item .item-content .favorite-btn {
+  margin-left: auto;
+  padding: 0;
+  margin-right: 0px;
+  margin-top: 0;
+  border: 1px solid rgba(232, 232, 232, 0.5);
+  background-color: rgba(232, 232, 232, 0.5);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+body .container .second-section .left-content .carousel-sm .items .item .item-content .favorite-btn i {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.795);
+}
+body .container .second-section .left-content .carousel-sm .items .item .item-content .favorite-btn:hover {
+  border: 1px solid rgb(60, 60, 60);
+  background-color: rgb(60, 60, 60);
+  scale: 1.2;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+body .container .second-section .left-content .carousel-sm .items .item .item-content .favorite-btn:hover i {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.795);
+}
+body .container .second-section .left-content .carousel-sm .items .item .item-content .description {
+  font-family: "Arimo", sans-serif !important;
+  color: rgb(80, 79, 79) !important;
+  width: 100%;
+}
+body .container .second-section .left-content .carousel-sm .items .item .item-content .price {
+  margin-top: 5px;
+  font-weight: bold;
+  width: 100%;
+}
+body .container .second-section .left-content .carousel-sm .items .item .buy-btn {
+  padding: 10px 10px 12px 5px;
+  border-radius: 10px 5px 30px 10px !important;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  position: absolute;
+  right: 15px;
+  bottom: -10px;
+}
+body .container .second-section .left-content .carousel-sm .items .item .buy-btn .i {
+  font-size: 15px;
+}
+body .container .second-section .left-content .carousel-sm .items .item .buy-btn:hover {
+  border-color: rgba(232, 232, 232, 0.5);
+  background-color: white;
+  color: black;
+  scale: 1.2;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+@media only screen and (max-width: 960px) {
+  body .container .second-section .right-content {
+    margin-top: 50px;
+  }
+}
+body .container .second-section .right-content .text-head-section {
+  padding-right: 40px;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+@media only screen and (max-width: 576px) {
+  body .container .second-section .right-content .text-head-section {
+    padding-right: 0px;
+    font-size: 25px;
+  }
+}
+body .container .second-section .right-content .text-description-section {
+  padding: 20px 0px 0px 3px;
+  font-size: 16px;
+  width: 80%;
+}
+@media only screen and (max-width: 576px) {
+  body .container .second-section .right-content .text-description-section {
+    width: 100%;
+  }
+}
+body .container .third-section {
+  margin-top: 100px;
+}
+body .container .third-section .left-content .text-head-section {
+  padding-right: 40px;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+@media only screen and (max-width: 576px) {
+  body .container .third-section .left-content .text-head-section {
+    padding-right: 0px;
+    font-size: 25px;
+  }
+}
+body .container .third-section .left-content .text-description-section {
+  padding: 20px 0px 0px 3px;
+  font-size: 16px;
+  width: 80%;
+}
+@media only screen and (max-width: 576px) {
+  body .container .third-section .left-content .text-description-section {
+    width: 100%;
+  }
+}
+body .container .third-section .right-content {
+  position: relative;
+}
+@media only screen and (max-width: 960px) {
+  body .container .third-section .right-content {
+    margin-top: 50px;
+  }
+}
+@media only screen and (max-width: 960px) {
+  body .container .third-section .right-content {
+    margin-top: 50px;
+  }
+}
+body .container .third-section .right-content img {
+  width: 100%;
+}
+@media only screen and (max-width: 960px) {
+  body .container .third-section .right-content img {
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 576px) {
+  body .container .third-section .right-content img {
+    width: 100%;
+  }
+}
+body .container .third-section .right-content span {
+  position: absolute;
+  top: -30px;
+  right: 0%;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.834);
+  padding: 20px 10px;
+  background-color: rgb(168, 18, 18);
+  border-radius: 50%;
+}
+@media only screen and (max-width: 960px) {
+  body .container .third-section .right-content span {
+    right: 20%;
+    font-size: 15px;
+    padding: 20px 10px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  body .container .third-section .right-content span {
+    right: 0%;
+    font-size: 15px !important;
+    padding: 20px 10px !important;
+  }
+}
+body .container .fourth-section {
+  margin-top: 100px;
+}
+body .container .fourth-section .left-content .carousel-lg .carousel-control {
+  min-width: 50px;
+}
+body .container .fourth-section .left-content .carousel-lg .carousel-control button {
+  background-color: inherit;
+  border: 0px;
+  color: rgba(0, 0, 0, 0.568);
+  padding: 5px;
+  border-radius: 5px;
+}
+body .container .fourth-section .left-content .carousel-lg .carousel-control button:hover {
+  background-color: rgb(60, 60, 60);
+  scale: 1.2;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+body .container .fourth-section .left-content .carousel-lg .carousel-control button:hover i {
+  color: rgba(255, 255, 255, 0.795);
+}
+body .container .fourth-section .left-content .carousel-lg .carousel-control .last-button {
+  margin-right: 5px;
+}
+body .container .fourth-section .left-content .carousel-lg > .items {
+  padding-top: 20px;
+  width: 670px !important;
+}
+@media only screen and (max-width: 960px) {
+  body .container .fourth-section .left-content .carousel-lg > .items {
+    width: 650px !important;
+  }
+}
+@media only screen and (max-width: 576px) {
+  body .container .fourth-section .left-content .carousel-lg > .items {
+    width: 315px !important;
+  }
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item {
+  position: relative;
+  width: 280px !important;
+  margin-right: 30px;
+  margin-left: 25px;
+  background-color: rgba(232, 232, 232, 0.5);
+  border-radius: 50px;
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item .head-buttons {
+  padding: 20px 20px 0px 20px;
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item .head-buttons #menu-btn {
+  color: black;
+  padding: 5px 8px;
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item .head-buttons #exclamation-btn {
+  padding: 3px 14px;
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item .head-buttons button {
+  padding: 8px 10px;
+  background-color: transparent;
+  border: 0px;
+  font-size: 16px;
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item .head-buttons button:hover {
+  color: white;
+  background-color: rgb(60, 60, 60);
+  border-radius: 50%;
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item #buy-btn {
+  padding: 10px 10px 12px 5px;
+  border-radius: 10px 5px 30px 10px !important;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  position: absolute;
+  right: 15px;
+  top: -10px;
+  bottom: auto;
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item #buy-btn .i {
+  font-size: 15px;
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item #buy-btn:hover {
+  border-color: rgba(232, 232, 232, 0.5);
+  background-color: white;
+  color: black;
+  scale: 1.2;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item .img-lg-item {
+  transform: translateX(-20px);
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item .content {
+  padding: 15px 0px 0px 20px;
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item .content .title {
+  font-size: 20px;
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item .content #items-in-menu {
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 30px;
+  padding-left: 5px;
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item .content .description {
+  font-size: 12px;
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item .content .favorite-btn {
+  margin-left: auto;
+  padding: 0;
+  margin-right: 0px;
+  margin-top: 0;
+  border: 1px solid rgba(232, 232, 232, 0.5);
+  background-color: rgba(232, 232, 232, 0.5);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item .content .favorite-btn i {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.795);
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item .content .favorite-btn:hover {
+  border: 1px solid rgb(60, 60, 60);
+  background-color: rgb(60, 60, 60);
+  scale: 1.2;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item .content .favorite-btn:hover i {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.795);
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item .content .add-to-cart {
+  transform: translateX(75px);
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item .content .buy-btn {
+  padding: 10px 10px 10px 15px;
+  border-radius: 25px 25px 25px 0px !important;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-size: 12px;
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item .content .buy-btn .i {
+  font-size: 15px;
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item .content .buy-btn:hover {
+  border-color: rgba(232, 232, 232, 0.5);
+  background-color: white;
+  color: black;
+  scale: 1.2;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item .content .buy-btn i {
+  margin-left: 8px;
+  font-size: 18px;
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item .content .buttons {
+  margin-top: 10px;
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item .content .buttons button {
+  padding: 10px;
+  margin-right: 20px;
+  margin-top: 10px;
+  border: 1px solid rgba(232, 232, 232, 0.5);
+  background-color: rgba(232, 232, 232, 0.5);
+  border-radius: 10px;
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item .content .buttons button i {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.795);
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item .content .buttons button:hover {
+  border: 1px solid rgb(60, 60, 60);
+  background-color: rgb(60, 60, 60);
+  scale: 1.2;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item .content .buttons button:hover i {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.795);
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item .content .buttons button:last-child {
+  margin-right: 0px;
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item .content .counter-btn {
+  padding: 0;
+  margin-right: 0px;
+  margin-top: 0;
+  border: 1px solid rgba(232, 232, 232, 0.5);
+  background-color: rgba(232, 232, 232, 0.5);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item .content .counter-btn i {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.795);
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item .content .counter-btn:hover {
+  border: 1px solid rgb(60, 60, 60);
+  background-color: rgb(60, 60, 60);
+  scale: 1.2;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item .content .counter-btn:hover i {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.795);
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item .content .carousel-sm .items {
+  position: relative;
+  width: 290px !important;
+  height: 230px !important;
+  padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: end;
+  margin-top: 20px;
+}
+@media only screen and (max-width: 576px) {
+  body .container .fourth-section .left-content .carousel-lg > .items > .item .content .carousel-sm .items {
+    width: 220px !important;
+  }
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item .content .carousel-sm .items .item {
+  position: relative;
+  background-color: rgba(232, 232, 232, 0.5) !important;
+  border-radius: 50px;
+  width: 130px !important;
+  height: 160px !important;
+  margin: 0px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border-radius: 20px;
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item .content .carousel-sm .items .item .img-item {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-top: -45px;
+  box-shadow: 0px 10px 5px 2px grey;
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item .content .carousel-sm .items .item .item-content {
+  margin-top: 8px;
+  display: flex;
+  flex-wrap: wrap;
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item .content .carousel-sm .items .item .item-content .title {
+  font-size: 15px;
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item .content .carousel-sm .items .item .item-content .description,
+body .container .fourth-section .left-content .carousel-lg > .items > .item .content .carousel-sm .items .item .item-content .price {
+  font-size: 12px;
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item .content .carousel-sm .items .item .item-content .price {
+  line-height: 30px;
+  font-weight: bold;
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item .content .carousel-sm .items .item .item-content .favorite-btn {
+  margin-left: auto;
+  padding: 0;
+  margin-right: 0px;
+  margin-top: 0;
+  border: 1px solid rgba(232, 232, 232, 0.5);
+  background-color: rgba(232, 232, 232, 0.5);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item .content .carousel-sm .items .item .item-content .favorite-btn i {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.795);
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item .content .carousel-sm .items .item .item-content .favorite-btn:hover {
+  border: 1px solid rgb(60, 60, 60);
+  background-color: rgb(60, 60, 60);
+  scale: 1.2;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item .content .carousel-sm .items .item .item-content .favorite-btn:hover i {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.795);
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item .content .eggs-div {
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 10px;
+  background-color: rgba(232, 232, 232, 0.5);
+  border-radius: 20px;
+  width: 90%;
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item .content .eggs-div .content-text {
+  padding-left: 20px;
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item .content .eggs-div .content-text .description,
+body .container .fourth-section .left-content .carousel-lg > .items > .item .content .eggs-div .content-text .price {
+  font-size: 12px;
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item .content .eggs-div .content-text .description {
+  line-height: 20px;
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item .content .eggs-div .content-text .price {
+  font-weight: bold;
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item .content .eggs-div img {
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  right: -60px;
+  top: 0px;
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item .content .controls-div {
+  width: 90%;
+  margin-top: 20px;
+  background-color: black;
+  padding: 10px;
+  border-radius: 25px;
+  box-shadow: 0px 10px 5px 2px grey;
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item .content .controls-div button {
+  padding: 10px;
+  margin-right: 15px;
+  border-radius: 50%;
+  font-size: 17px;
+  color: rgba(232, 232, 232, 0.5);
+  background-color: transparent;
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item .content .controls-div button:hover {
+  background-color: rgb(60, 60, 60);
+}
+body .container .fourth-section .left-content .carousel-lg > .items > .item .content .controls-div button:last-child {
+  margin-right: 0px;
+}
+@media only screen and (max-width: 960px) {
+  body .container .fourth-section .right-content {
+    margin-top: 50px;
+  }
+}
+body .container .fourth-section .right-content .text-head-section {
+  padding-right: 40px;
+  font-size: 35px;
+  font-weight: bold;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+@media only screen and (max-width: 576px) {
+  body .container .fourth-section .right-content .text-head-section {
+    padding-right: 0px;
+    font-size: 25px;
+  }
+}
+body .container .fourth-section .right-content .text-description-section {
+  padding: 20px 0px 0px 3px;
+  font-size: 16px;
+  width: 80%;
+}
+@media only screen and (max-width: 576px) {
+  body .container .fourth-section .right-content .text-description-section {
+    width: 100%;
+  }
+}
+body .container .fourth-section .right-content button {
+  margin-top: 50px;
+  background-position: center;
+  background-size: cover;
+  background-color: black;
+  width: 160px;
+  height: 50px;
+  border-radius: 10px;
+}
+@media only screen and (max-width: 576px) {
+  body .container .fourth-section .right-content button {
+    width: 130px;
+    height: 40px;
+  }
+}
+body .container .fourth-section .right-content #app-store {
+  background-image: url("../images/icons/apple-app-store-icon.png");
+  margin-right: 10px;
+}
+body .container .fourth-section .right-content #app-store:hover {
+  scale: 1.2;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
+  margin-right: 20px;
+}
+body .container .fourth-section .right-content #play-store {
+  background-image: url("../images/icons/google-play-icon.png");
+}
+body .container .fourth-section .right-content #play-store:hover {
+  scale: 1.2;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
+  margin-left: 10px;
+}
+body .container .last-section {
+  margin-top: 100px;
+}
+body .container .last-section .first-part h4 {
+  color: rgb(80, 79, 79);
+  font-weight: light;
+  padding-bottom: 10px;
+}
+body .container .last-section .first-part h1 {
+  font-size: 34px;
+}
+@media only screen and (max-width: 576px) {
+  body .container .last-section .first-part h1 {
+    font-size: 25px;
+  }
+}
+body .container .last-section .first-part button {
+  padding: 10px 25px;
+  border-radius: 0px 20px 20px 20px !important;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+body .container .last-section .first-part button .i {
+  font-size: 15px;
+}
+body .container .last-section .first-part button:hover {
+  border-color: rgba(232, 232, 232, 0.5);
+  background-color: white;
+  color: black;
+  scale: 1.2;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+@media only screen and (max-width: 576px) {
+  body .container .last-section .first-part button {
+    margin-top: 20px;
+  }
+}
+body .container .last-section .first-part button:hover {
+  border-color: rgba(232, 232, 232, 0.5);
+  background-color: white;
+  color: black;
+  scale: 1.2;
+  transition: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+body .container .last-section .first-part hr {
+  display: block;
+  width: 100%;
+  height: 3px !important;
+  border: 0px;
+  background-color: rgba(248, 191, 191, 0.277);
+  border-radius: 10px;
+  margin: 20px 0px;
+}
+body .container .last-section .first-part p {
+  font-family: "Arimo", sans-serif;
+}
+body .container .last-section .second-part {
+  margin-top: 100px;
+  align-items: start !important;
+}
+body .container .last-section .second-part h3 {
+  font-weight: bold;
+  font-size: 22px;
+  padding-bottom: 20px;
+}
+body .container .last-section .second-part .col-3 ul {
+  list-style: none;
+  padding-bottom: 20px;
+}
+body .container .last-section .second-part .col-3 ul li {
+  font-weight: 500;
+  padding-top: 10px;
+}
+body .container #bottom-image {
+  position: absolute;
+  bottom: -25px;
+  right: -40px;
+  width: 100px;
+}
+@media only screen and (max-width: 576px) {
+  body .container #bottom-image {
+    width: 80px;
+    bottom: -20px;
+    right: -20px;
+  }
+}
+
+.carousel .items {
+  overflow: hidden;
+  display: flex;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+.carousel .items::-webkit-scrollbar {
+  width: 20px;
+  height: 10px;
+}
+.carousel .items::-webkit-scrollbar-thumb {
+  background: rgba(232, 232, 232, 0.5);
+  border-radius: 10px;
+}
+.carousel .items::-webkit-scrollbar-thumb:hover {
+  background: rgb(246, 244, 244);
+}
+.carousel .items .item {
+  flex-shrink: 0;
+  scroll-snap-align: start;
+}
+
+/*# sourceMappingURL=carousel.css.map */
