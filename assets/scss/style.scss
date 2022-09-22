@@ -11,7 +11,7 @@ $section-margin-top: 100px;
 $shadow: 0px 10px 5px 2px grey;
 
 @mixin right-content-margin-top {
-  @media only screen and (max-width:$breakpoint-tablet){
+  @media only screen and (max-width: $breakpoint-tablet) {
     margin-top: 50px;
   }
 }
@@ -39,7 +39,7 @@ $shadow: 0px 10px 5px 2px grey;
   }
 }
 
-@mixin buy-button($padding: 15px 10px 12px 5px, $radius:10px 5px 30px 10px) {
+@mixin buy-button($padding: 15px 10px 12px 5px, $radius: 10px 5px 30px 10px) {
   padding: $padding;
   border-radius: $radius !important;
   background-color: $btn-color;
@@ -79,7 +79,7 @@ $shadow: 0px 10px 5px 2px grey;
   font-size: 35px;
   font-weight: bold;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  @media only screen and (max-width:$breakpoint-mobile) {
+  @media only screen and (max-width: $breakpoint-mobile) {
     padding-right: 0px;
     font-size: 25px;
   }
@@ -89,7 +89,7 @@ $shadow: 0px 10px 5px 2px grey;
   padding: 20px 0px 0px 3px;
   font-size: 16px;
   width: 80%;
-  @media only screen and (max-width:$breakpoint-mobile) {
+  @media only screen and (max-width: $breakpoint-mobile) {
     width: 100%;
   }
 }
@@ -112,6 +112,7 @@ $shadow: 0px 10px 5px 2px grey;
     &:last-child {
       margin-right: 0px;
     }
+    border: 0px !important;
   }
 }
 
@@ -173,7 +174,7 @@ body {
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 25px 50px;
-    @media only screen and (max-width:$breakpoint-tablet){
+    @media only screen and (max-width: $breakpoint-tablet) {
       padding: 25px;
     }
     button {
@@ -196,12 +197,15 @@ body {
           .content-body {
             h1 {
               font-size: 50px;
-              @media only screen and (max-width:$breakpoint-tablet){
+              @media only screen and (max-width: $breakpoint-tablet) {
                 font-size: 40px;
               }
             }
             button {
-              @include buy-button($padding: 10px 15px, $radius:20px 20px 0px 20px);
+              @include buy-button(
+                $padding: 10px 15px,
+                $radius: 20px 20px 0px 20px
+              );
               margin-top: 1.5rem;
               font-size: 20px;
               .fa-arrow-right-long {
@@ -379,10 +383,10 @@ body {
           > .items {
             padding-top: 20px;
             width: 670px !important;
-            @media only screen and (max-width:$breakpoint-tablet){
-              width:650px !important;
+            @media only screen and (max-width: $breakpoint-tablet) {
+              width: 650px !important;
             }
-            @media only screen and (max-width:$breakpoint-mobile){
+            @media only screen and (max-width: $breakpoint-mobile) {
               width: 315px !important;
             }
             > .item {
@@ -393,16 +397,16 @@ body {
               margin-left: 25px;
               background-color: $gray-color;
               border-radius: 50px;
-              .head-buttons{
+              .head-buttons {
                 padding: 20px 20px 0px 20px;
                 #menu-btn {
                   color: black;
                   padding: 5px 8px;
                 }
-                #exclamation-btn{
+                #exclamation-btn {
                   padding: 3px 14px;
                 }
-                button{
+                button {
                   padding: 8px 10px;
                   background-color: transparent;
                   border: 0px;
@@ -423,7 +427,7 @@ body {
                 bottom: auto;
               }
 
-              .img-lg-item{
+              .img-lg-item {
                 transform: translateX(-20px);
               }
               .content {
@@ -433,7 +437,7 @@ body {
                   font-size: 20px;
                 }
 
-                #items-in-menu{
+                #items-in-menu {
                   font-size: 10px;
                   font-weight: bold;
                   line-height: 30px;
@@ -451,14 +455,17 @@ body {
                   height: 30px;
                 }
 
-                .add-to-cart{
+                .add-to-cart {
                   transform: translateX(75px);
                 }
 
-                .buy-btn{
-                  @include buy-button($padding: 10px 10px 10px 15px, $radius: 25px 25px 25px 0px);
+                .buy-btn {
+                  @include buy-button(
+                    $padding: 10px 10px 10px 15px,
+                    $radius: 25px 25px 25px 0px
+                  );
                   font-size: 12px;
-                  i{
+                  i {
                     margin-left: 8px;
                     font-size: 18px;
                   }
@@ -590,7 +597,7 @@ body {
           width: 160px;
           height: 50px;
           border-radius: 10px;
-          @media only screen and (max-width:$breakpoint-mobile){
+          @media only screen and (max-width: $breakpoint-mobile) {
             width: 130px;
             height: 40px;
           }
@@ -624,12 +631,12 @@ body {
         }
         h1 {
           font-size: 34px;
-          @media only screen and (max-width:$breakpoint-mobile){
+          @media only screen and (max-width: $breakpoint-mobile) {
             font-size: 25px;
           }
         }
         button {
-          @include buy-button($padding: 10px 25px, $radius:0px 20px 20px 20px);
+          @include buy-button($padding: 10px 25px, $radius: 0px 20px 20px 20px);
           @media only screen and (max-width: $breakpoint-mobile) {
             margin-top: 20px;
           }

@@ -78,6 +78,7 @@ body .container .first-section .header-content .left-section .buttons button {
   border: 1px solid rgba(232, 232, 232, 0.5);
   background-color: rgba(232, 232, 232, 0.5);
   border-radius: 10px;
+  border: 0px !important;
 }
 body .container .first-section .header-content .left-section .buttons button i {
   font-size: 20px;
@@ -542,6 +543,7 @@ body .container .fourth-section .left-content .carousel-lg > .items > .item .con
   border: 1px solid rgba(232, 232, 232, 0.5);
   background-color: rgba(232, 232, 232, 0.5);
   border-radius: 10px;
+  border: 0px !important;
 }
 body .container .fourth-section .left-content .carousel-lg > .items > .item .content .buttons button i {
   font-size: 20px;
