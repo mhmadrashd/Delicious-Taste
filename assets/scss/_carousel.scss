@@ -1,30 +1,28 @@
-@import "style.scss";
-
 @mixin scroll-x {
-    &::-webkit-scrollbar {
-      width: 20px;
-      height: 10px;
-      // width: 0px;
-    }
-    // &::-webkit-scrollbar-track {
-    //   box-shadow: inset 0 0 5px grey;
-    //   border-radius: 10px;
-    //   // background-color: transparent;
-    // }
-    &::-webkit-scrollbar-thumb {
-      background: rgba(232, 232, 232, 0.5);
-      border-radius: 10px;
-      // background-color: transparent;
-    }
-    &::-webkit-scrollbar-thumb:hover {
-      background: rgb(246, 244, 244);
-      // background-color: transparent;
-    }
-    scroll-behavior: smooth;
-    -webkit-overflow-scrolling: touch;
+  &::-webkit-scrollbar {
+    width: 20px;
+    height: 10px;
+    // width: 0px;
+  }
+  // &::-webkit-scrollbar-track {
+  //   box-shadow: inset 0 0 5px grey;
+  //   border-radius: 10px;
+  //   // background-color: transparent;
+  // }
+  &::-webkit-scrollbar-thumb {
+    background: rgba(232, 232, 232, 0.5);
+    border-radius: 10px;
+    // background-color: transparent;
+  }
+  &::-webkit-scrollbar-thumb:hover {
+    background: rgb(246, 244, 244);
+    // background-color: transparent;
+  }
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
 }
 
-.carousel{
+.carousel {
   .items {
     overflow: hidden;
     display: flex;
@@ -36,5 +34,4 @@
       scroll-snap-align: start;
     }
   }
-  
 }
