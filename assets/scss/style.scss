@@ -198,7 +198,7 @@ body {
             h1 {
               font-size: 50px;
               @media only screen and (max-width: $breakpoint-tablet) {
-                font-size: 40px;
+                font-size: 38px !important;
               }
             }
             button {
@@ -598,7 +598,7 @@ body {
           height: 50px;
           border-radius: 10px;
           @media only screen and (max-width: $breakpoint-mobile) {
-            width: 130px;
+            width: 120px !important;
             height: 40px;
           }
         }
@@ -632,7 +632,7 @@ body {
         h1 {
           font-size: 34px;
           @media only screen and (max-width: $breakpoint-mobile) {
-            font-size: 25px;
+            font-size: 23px !important;
           }
         }
         button {
@@ -665,6 +665,9 @@ body {
           font-weight: bold;
           font-size: 22px;
           padding-bottom: 20px;
+          @media only screen and (max-width: $breakpoint-mobile) {
+            font-size: 16px !important;
+          }
         }
         .col-3 {
           ul {
@@ -673,6 +676,9 @@ body {
             li {
               font-weight: 500;
               padding-top: 10px;
+              @media only screen and (max-width: $breakpoint-mobile) {
+                font-size: 15px;
+              }
             }
           }
         }

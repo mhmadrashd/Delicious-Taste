@@ -9,6 +9,9 @@ $breakpoint-mobile: 576px;
   margin: 0px;
   box-sizing: border-box;
 }
+*:hover {
+  outline: none;
+}
 /* End global section */
 
 /* Start responsive section */

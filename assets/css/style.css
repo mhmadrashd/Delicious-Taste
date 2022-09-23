@@ -35,7 +35,7 @@ body .container .first-section .header-content .left-section .content-body h1 {
 }
 @media only screen and (max-width: 960px) {
   body .container .first-section .header-content .left-section .content-body h1 {
-    font-size: 40px;
+    font-size: 38px !important;
   }
 }
 body .container .first-section .header-content .left-section .content-body button {
@@ -754,7 +754,7 @@ body .container .fourth-section .right-content button {
 }
 @media only screen and (max-width: 576px) {
   body .container .fourth-section .right-content button {
-    width: 130px;
+    width: 120px !important;
     height: 40px;
   }
 }
@@ -790,7 +790,7 @@ body .container .last-section .first-part h1 {
 }
 @media only screen and (max-width: 576px) {
   body .container .last-section .first-part h1 {
-    font-size: 25px;
+    font-size: 23px !important;
   }
 }
 body .container .last-section .first-part button {
@@ -844,6 +844,11 @@ body .container .last-section .second-part h3 {
   font-size: 22px;
   padding-bottom: 20px;
 }
+@media only screen and (max-width: 576px) {
+  body .container .last-section .second-part h3 {
+    font-size: 16px !important;
+  }
+}
 body .container .last-section .second-part .col-3 ul {
   list-style: none;
   padding-bottom: 20px;
@@ -851,6 +856,11 @@ body .container .last-section .second-part .col-3 ul {
 body .container .last-section .second-part .col-3 ul li {
   font-weight: 500;
   padding-top: 10px;
+}
+@media only screen and (max-width: 576px) {
+  body .container .last-section .second-part .col-3 ul li {
+    font-size: 15px;
+  }
 }
 body .container #bottom-image {
   position: absolute;
