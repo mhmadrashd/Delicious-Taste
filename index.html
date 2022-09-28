@@ -5,12 +5,10 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="assets/css/res-style.css" />
-  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/main-style.css" />
   <link href="assets/css/fontawesome.min.css" rel="stylesheet">
   <link href="assets/css/brands.min.css" rel="stylesheet">
   <link href="assets/css/solid.min.css" rel="stylesheet">
-  <link href="assets/css/carousel.css" rel="stylesheet">
   <title>Taste</title>
 </head>
 
@@ -31,10 +29,10 @@
                 class="fa-solid fa-arrow-right-long"></i></button>
           </div>
           <div class="buttons">
-            <button id="burger"><i class="fa-fw fa-solid fa-burger"></i></button>
-            <button id="ice"><i class="fa-fw fa-solid fa-ice-cream"></i></button>
-            <button id="coffee"><i class="fa-fw fa-solid fa-mug-hot"></i></button>
-            <button id="dessert"><i class="fa-fw fa-solid fa-cake-candles"></i></button>
+            <button class="ml-1 mt-1 mb-1" id="burger"><i class="fa-fw fa-solid fa-burger"></i></button>
+            <button class="mt-1 mb-1" id="ice"><i class="fa-fw fa-solid fa-ice-cream"></i></button>
+            <button class="mt-1 mb-1" id="coffee"><i class="fa-fw fa-solid fa-mug-hot"></i></button>
+            <button class="mt-1 mb-1" id="dessert"><i class="fa-fw fa-solid fa-cake-candles"></i></button>
           </div>
         </div>
         <div class="col-6 right-section d-flex d-right">
@@ -52,7 +50,7 @@
             <button class="last-button"><i class="fa-fw fa-solid fa-chevron-left"></i></button>
             <button class="next-button"><i class="fa-fw fa-solid fa-chevron-right"></i></button>
           </div>
-          <div class="items" loop="true" auto-loop="true" interval="2000">
+          <div class="items" loop="true" auto-loop="true" interval="2000" show-item="2">
             <div class="item">
               <img class="img-item" src="assets/images/items/item1.jpeg" alt="item1">
               <div class="item-content d-flex">
@@ -137,7 +135,7 @@
 
     <section class="fourth-section row">
 
-      <div class="left-content col-8 col-md-12">
+      <div class="left-content col-7 col-md-12">
         <div class="carousel carousel-lg row">
 
           <div class="carousel-control w-100 d-flex width-end height-start col-12">
@@ -145,7 +143,7 @@
             <button class="next-button"><i class="fa-fw fa-solid fa-chevron-right"></i></button>
           </div>
 
-          <div class="items col-12" height="650px" loop="true" auto-loop="false" interval="2000">
+          <div class="items col-12" height="650px" loop="true" auto-loop="false" interval="2000" >
 
             <div class="item width-start height-start">
               <div class="head-buttons d-flex w-100">
@@ -165,7 +163,7 @@
                 </div>
 
                 <div class="carousel carousel-sm">
-                  <div class="items" width="270px" height="280px" loop="true" auto-loop="false" interval="2000"
+                  <div class="items" width="270px" height="240px" loop="true" auto-loop="false" interval="2000"
                     scroll="true">
                     <div class="item">
                       <img class="img-item" src="assets/images/items/item1.jpeg" alt="item1">
@@ -292,7 +290,7 @@
                 </div>
 
                 <div class="carousel carousel-sm">
-                  <div class="items" width="270px" height="280px" loop="true" auto-loop="false" interval="2000"
+                  <div class="items" width="270px" height="240px" loop="true" auto-loop="true" interval="2000"
                     scroll="true">
 
                     <div class="item">
@@ -411,7 +409,7 @@
         </div>
       </div>
 
-      <div class="right-content col-4 col-md-12">
+      <div class="right-content col-5 col-md-12">
         <h2 class="text-head-section">
           App is Available
         </h2>
@@ -420,8 +418,10 @@
           nemo voluptate esse repudiandae alias corrupti aut eaque consectetur quasi temporibus?
           Beatae corrupti, facilis neque modi non illum iste.
         </p>
-        <button id="app-store"></button>
-        <button id="play-store"></button>
+        <div class="d-flex">
+          <button id="app-store"></button>
+          <button id="play-store"></button>
+        </div>
       </div>
 
     </section>
@@ -433,8 +433,8 @@
           <div class="col-7 col-sm-12">
             <h1 id="question">Want to Reserve a table?</h1>
           </div>
-          <div class="col-5 col-sm-12 d-flex d-right d-sm-center">
-            <button>Contact us Now</button>
+          <div class="col-5 col-sm-12 d-flex d-right d-sm-center pr-2">
+            <button class="m-1">Contact us Now</button>
           </div>
         </div>
         <hr>

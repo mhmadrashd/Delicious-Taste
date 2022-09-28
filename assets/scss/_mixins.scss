@@ -1,0 +1,155 @@
+@mixin right-content-margin-top {
+    @media only screen and (max-width: $breakpoint-tablet) {
+      margin-top: 50px;
+    }
+  }
+  
+  @mixin button-scale {
+    scale: 1.2;
+  }
+  
+  @mixin button-transition {
+    transition: 0.3s;
+    transition-timing-function: ease-in-out;
+  }
+  
+  @mixin hover-black-button {
+    border-color: $gray-color;
+    background-color: white;
+    color: black;
+    @include button-scale;
+  }
+  
+  @mixin hover-gray-button($icon-size: 20px) {
+    border: 1px solid $gray-color-hover;
+    background-color: $gray-color-hover;
+    @include button-scale;
+    i {
+      font-size: $icon-size;
+      color: rgba(255, 255, 255, 0.795);
+    }
+  }
+  
+  @mixin buy-button($padding: 15px 10px 12px 5px, $radius: 10px 5px 30px 10px) {
+    @include button-transition;
+    padding: $padding;
+    border-radius: $radius !important;
+    background-color: $btn-color;
+    color: white;
+    .i {
+      font-size: 15px;
+    }
+    &:hover {
+      @include hover-black-button;
+    }
+  }
+  
+  @mixin button-style(
+    $margin-right: 20px,
+    $margin-top: 10px,
+    $padding: 10px,
+    $border-radius: 10px,
+    $icon-size: 20px
+  ) {
+    @include button-transition;
+    padding: $padding;
+    margin-right: $margin-right;
+    margin-top: $margin-top;
+    border: 1px solid $gray-color;
+    background-color: $gray-color;
+    border-radius: $border-radius;
+    i {
+      font-size: $icon-size;
+      color: rgba(0, 0, 0, 0.795);
+    }
+    &:hover {
+      @include hover-gray-button($icon-size);
+    }
+  }
+  
+  @mixin text-head-section {
+    padding-right: 40px;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    @media only screen and (max-width: $breakpoint-mobile) {
+      padding-right: 0px;
+      font-size: 25px;
+    }
+  }
+  
+  @mixin text-description-section {
+    padding: 20px 0px 0px 3px;
+    font-size: 16px;
+    width: 80%;
+    @media only screen and (max-width: $breakpoint-mobile) {
+      width: 100%;
+    }
+  }
+  
+  @mixin buttons-div-style(
+    $margin-top: 10px,
+    $margin-right: 20px,
+    $padding: 10px,
+    $border-radius: 10px,
+    $icon-size: 20px
+  ) {
+    button {
+      @include button-style(
+        $margin-right,
+        $margin-top,
+        $padding,
+        $border-radius,
+        $icon-size
+      );
+      &:last-child {
+        margin-right: 0px;
+      }
+      border: 0px !important;
+    }
+  }
+  
+  @mixin carousel-control-buttons {
+    min-width: 50px;
+    button {
+      margin: 10px 5px;
+      background-color: inherit;
+      border: 0px;
+      color: rgba(0, 0, 0, 0.568);
+      padding: 5px;
+      border-radius: 5px;
+      @include button-transition;
+      &:hover {
+        background-color: $gray-color-hover;
+        @include button-scale;
+        i {
+          color: rgba(255, 255, 255, 0.795);
+        }
+      }
+    }
+  }
+  
+  @mixin carousel-sm-items($width: 450px, $height: 300px) {
+    position: relative;
+    // width: $width ;
+    // height: $height ;
+    padding-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: end;
+    @media only screen and (max-width: $breakpoint-mobile) {
+      width: 220px ;
+    }
+  }
+  
+  @mixin carousel-sm-item($width: 210px, $height: 200px) {
+    position: relative;
+    background-color: $gray-color !important;
+    border-radius: 50px;
+    width: $width ;
+    height: $height ;
+    margin: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }

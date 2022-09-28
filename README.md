@@ -19,9 +19,19 @@ This website was built from scratch without any libraries. ( Pure Responsive Web
 
 This website was built from scratch without any libraries.
 
-- Pure Responsive Website without using any libraries or frameworks
-- Pure custom carousel from scratch
-- You can customize every thing in carousel (width, height, loop, auto loop, loop interval, show/hide scroll bar and you can custom navigation buttons inanywhere you want (top, bottom, left and right). You can also seperate button in right and other button in left or top and bottom. )
+- Pure Responsive Website without using any libraries or frameworks.
+- Build custom responsive style
+- Pure custom carousel from scratch.
+- You can customize every thing in carousel like:  
+    - Width
+    - Height
+    - Loop
+    - Auto loop
+    - Loop interval
+    - Displayed item number
+    - Show/hide scroll bar 
+    - Customize navigation buttons inanywhere you want (top, bottom, left and right).
+    - You can also seperate button in right and other button in left or top and bottom.
 
 ## Pictures
 - ### Large Screen
